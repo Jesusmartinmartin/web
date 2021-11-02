@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+    <script>
+        function updateTextInput (val) {
+            document.getElementById ('textInput').value = val;
+        }
+    </script>
+
+
+</head>
+<body>
+    <div id="container">
+
+        <header>
+        <img src="img/header.jpg" alt="html5">
+        </header>
+
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home </li></a>   <!-- El que pinta ultimo es el que prevalece sobre los demas -->
+                    <a href="parrafos.html"><li> Parrafo</li></a>
+                    <a href="enlaces.html"><li> Enlace</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Listas</li></a>
+                    <a href="formularios.html"><li>Formularios</li></a>
+                    <a href="multimedia.html"><li>Multimedia</li></a>
+                    <a href="html5.html"><li>From HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                 <div id="html5">
+               <form action="destino.php" method="post" id="cajahtml5">
+                   <fieldset>
+                    <legend>Formulario moderno</legend>
+                    <p>Email: <input type="email" name="email"></p>
+                    <p>Url: <input type="url" name="url" ></p>
+                    <p>Telefono: <input type="tel" name="telefono"></p>
+                    <p>Hora: <input type="time" name="hora"></p>
+                    <p>Fecha: <input type="date" name="fecha"></p>
+                    <p>Mes: <input type="month" name="mes"></p>
+                    <p>Semana: <input type="week" name="semana"></p>
+                    <p>Fecha y hora: <input type="datetime" name="fechahora"></p>
+                    <p>Numero: <input type="number" name="numero" step="2" min="10" max="30"></p>
+                    <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
+                       onchange="updateTextInput(this.value);"/> <br>
+                       <input type="text" id="textInput" value="">
+                    </p>
+                    <p>Color: <input type="color" name="color"></p>
+                    <input type="submit" value="Enviar">
+                   </fieldset>
+               </form>
+
+
+                 </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            <div class="timesn">
+            S1DAM - &copy; Designed by Jesús Martin 2021
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

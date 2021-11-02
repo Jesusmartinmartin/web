@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <img src="img/header.jpg" alt="html5">
+        </header>
+
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home </li>
+                    </a> <!-- El que pinta ultimo es el que prevalece sobre los demas -->
+                    <a href="parrafos.html">
+                        <li> Parrafo</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li> Enlace</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="html5.html">
+                        <li>From HTML5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formularios">
+                    <h1 class="titulo">Formularios</h1>
+                    <p>La etiqueta principal para hacer formularios es <span class="forma">form</span></p>
+                    <h2>Formulario basico</h2>
+
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend>Login</legend>
+                            <p><input type="text" name="usuario" placeholder="User"></p>
+                            <p><input type="password" name="password" placeholder="Password"></p>
+                            <p><textarea name="coment" cols="30" rows="10" placeholder="Coment"></textarea></p>
+                            <p><input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                    <h2>Formulario variado</h2>
+                    <form action="" method="get">
+                        <fieldset>
+                            <p> Lista
+                                <select name="provincia">
+                                    <option value="1">Toledo</option>
+                                    <option value="2">Madrid</option>
+                                    <option value="3">Barcelona</option>
+                                    <option value="4">Guadalajara</option>
+                                    <option value="5">Albacete</option>
+                                </select>
+                            </p>
+                            <p> Lista mutiple
+                                <select name="colores" multiple size="5">
+                                    <option value="1">Azul</option>
+                                    <option value="2">Marron</option>
+                                    <option value="3">Rojo</option>
+                                    <option value="4">Naranja</option>
+                                    <option value="5">Verde</option>
+                                </select>
+                            </p>
+                            <fieldset>
+                                <legend>Aficiones</legend>
+                                <input type="checkbox" name="cine">Cine <br>
+                                <input type="checkbox" name="deporte">Deporte <br>
+                                <input type="checkbox" name="vacaciones">Vacaciones <br>
+                                <input type="checkbox" name="juerga">Juega <br>
+                                <input type="checkbox" name="pasear">Pasear <br>
+                            </fieldset>
+                            <fieldset>
+                                <!-- Continuar desde aqui dentro de los fieldset -->
+
+                                <legend>Sexo</legend>
+                                <input type="radio" name="sexo" value="1">Mujer <br>
+                                <input type="radio" name="sexo" value="2">Hombre <br>
+                                <input type="radio" name="sexo" value="3">Otro <br>
+                            </fieldset>
+                        </fieldset>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            <div class="timesn">
+                S1DAM - &copy; Designed by Jesús Martin 2021
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

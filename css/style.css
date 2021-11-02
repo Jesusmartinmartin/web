@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px grey;
+}
+header {
+   background-color: #0092BE; 
+    padding: 16px;          /* Copiamos el color de la imagen y se lo metemos al fondo de la cabezera para hacerla mas grande y que aparezca mas grande el color  */
+}
+header img {
+    width: 100%;
+}
+
+nav {
+    
+    width: 20%;
+    float: left;
+}
+#contenido {
+    padding-bottom: 24px;
+    width: 80%;
+    float: right;
+    box-shadow: inset 0 0 20px grey;
+}
+#home{
+    text-align: center;
+}
+footer {
+    background-color:#0092BE;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+padding: 0;
+margin: 0;
+}
+
+nav li{
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    color: darkblue;            
+    padding: 8px;
+    margin: 5px;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+ nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+} 
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+    
+}
+.timesn {
+    font-family: 'Times New Roman', Times, serif;
+}
+.forma {
+    color: red;
+    font-size: 40px;
+}
+.titulo{
+text-align: center;
+color: darkblue;
+}
+#enlaces a {
+    color: darkgreen;
+    font-weight: bold;
+}
+#tablas table {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#tablas th {
+    background-color: rgb(12, 12, 49);
+    color: rgb(99, 99, 233);
+}
+#tablas .default {
+    background-color: rgb(99, 99, 233);
+    color: rgb(12, 12, 49);
+}
+#tcebra tr:nth-child(odd) td {
+    background-color: rgb(236, 182, 182);
+  }
+  
+#tcebra tr:nth-child(even) td { 
+    background-color: rgb(176, 187, 115) ;
+  }
+#horario table {
+    background-color: #f0f0f0;
+}
+#tablas #thorario table th {
+    background-color: #f0f0f0;
+}
+#tablas #thorario table{
+    width: 90%;
+    margin: 0;
+} 
+#tituloh{
+    background-color: #f0f0f0;
+}
+.lmsg {
+    background-color: #01b95c;
+}
+.ing {
+    background-color: #80ff81;
+}
+.fol {
+    background-color: #f0f0c8;
+}
+.ende {
+    background-color: #8080c0;
+}
+.sisi {
+    background-color: #ff8002;
+}
+.prog {
+    background-color: #80ffff;
+}
+.bdd {
+    background-color: #64aa96;
+}
+
+#custom li {
+    list-style: square;
+}
+#custom li li{
+    list-style-image: url(../img/corazon.png);
+}
+#custom li li li{
+    list-style: circle;
+    list-style-image: none ;
+}
+#multimedia {
+    text-align: center;
+}
+#cajahtml5 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#cajahtml5 fieldset {
+    color:  blue;
+    background-color: cornsilk;
+
+}
