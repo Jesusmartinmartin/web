@@ -52,19 +52,19 @@
                     <h2>Formulario basico</h2>
 
                     <form action="" method="get">
-                        <fieldset>
-                            <legend>Login</legend>
-                            <p><input type="text" name="usuario" placeholder="User"></p>
-                            <p><input type="password" name="password" placeholder="Password"></p>
-                            <p><textarea name="coment" cols="30" rows="10" placeholder="Coment"></textarea></p>
-                            <p><input type="submit" value="Enviar"></p>
+                        <fieldset class="primerfiel">
+                            <legend> <strong> Login </strong></legend>
+                            <p><input type="text" name="usuario" placeholder="User" class="segundofiel"></p>
+                            <p><input type="password" name="password" placeholder="Password" class="segundofiel"></p>
+                            <p><textarea name="coment" cols="30" rows="10" placeholder="Coment" class="segundofiel"></textarea></p>
+                            <p><input type="submit" value="Enviar" class="segundofiel"></p>
                         </fieldset>
                     </form>
                     <h2>Formulario variado</h2>
                     <form action="" method="get">
-                        <fieldset>
+                        <fieldset class="primerfiel">
                             <p> Lista
-                                <select name="provincia">
+                                <select name="provincia" class="segundofiel">
                                     <option value="1">Toledo</option>
                                     <option value="2">Madrid</option>
                                     <option value="3">Barcelona</option>
@@ -73,7 +73,7 @@
                                 </select>
                             </p>
                             <p> Lista mutiple
-                                <select name="colores" multiple size="5">
+                                <select name="colores" multiple size="5" class="segundofiel">
                                     <option value="1">Azul</option>
                                     <option value="2">Marron</option>
                                     <option value="3">Rojo</option>
@@ -81,25 +81,25 @@
                                     <option value="5">Verde</option>
                                 </select>
                             </p>
-                            <fieldset>
-                                <legend>Aficiones</legend>
+                            <fieldset class="segundofiel">
+                                <legend> <strong> Aficiones </strong></legend>
                                 <input type="checkbox" name="cine">Cine <br>
                                 <input type="checkbox" name="deporte">Deporte <br>
                                 <input type="checkbox" name="vacaciones">Vacaciones <br>
                                 <input type="checkbox" name="juerga">Juega <br>
                                 <input type="checkbox" name="pasear">Pasear <br>
                             </fieldset>
-                            <fieldset>
+                            <fieldset class="segundofiel">
                                 <!-- Continuar desde aqui dentro de los fieldset -->
 
-                                <legend>Sexo</legend>
+                                <legend> <strong>Sexo</strong></legend>
                                 <input type="radio" name="sexo" value="1">Mujer <br>
                                 <input type="radio" name="sexo" value="2">Hombre <br>
                                 <input type="radio" name="sexo" value="3">Otro <br>
                             </fieldset>
                         </fieldset>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
+                        <input type="submit" value="Enviar" class="segundofiel">
+                        <input type="reset" value="Borrar" class="segundofiel">
                     </form>
                 </div>
             </div>
