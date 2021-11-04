@@ -168,3 +168,15 @@ color: darkblue;
 .segundofiel {
     background-color: antiquewhite;
 }
+
+.fondito {
+    background-color: #dde9f5;
+}
+
+#enduroo{
+    -webkit-filter: blur(1px);
+   -moz-filter: blur(1px);
+   -o-filter: blur(1px);
+   -ms-filter: blur(20px);
+   filter: blur(1px);
+}
