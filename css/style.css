@@ -54,8 +54,8 @@ nav li{
     border-radius: 10px;
 }
  nav li:hover {
-    background-color: darkblue;
-    color: cyan;
+    background-color: grey;
+    color: black;
 } 
 .azulo {
     color: darkblue;
