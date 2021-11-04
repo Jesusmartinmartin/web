@@ -163,10 +163,12 @@ color: darkblue;
 
 .primerfiel {
     background-color: #0092BE;
+    text-align: center;
 }
 
 .segundofiel {
     background-color: antiquewhite;
+    text-align: left;
 }
 
 .fondito {
